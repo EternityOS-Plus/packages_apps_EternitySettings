@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.yasp.settings.fragments;
+package com.yalp.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -22,17 +22,17 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class MiscSettings extends SettingsPreferenceFragment {
+public class NotificationsSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.yaap_settings_misc);
+        addPreferencesFromResource(R.xml.yalp_settings_notifications);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.YASP;
+        return MetricsProto.MetricsEvent.YALP_SETTINGS;
     }
 }
