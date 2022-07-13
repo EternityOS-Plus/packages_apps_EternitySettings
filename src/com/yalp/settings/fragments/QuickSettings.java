@@ -50,6 +50,6 @@ public class QuickSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.YALP_SETTINGS;
+        return MetricsProto.MetricsEvent.CUSTOM_SETTINGS;
     }
 }
