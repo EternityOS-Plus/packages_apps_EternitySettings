@@ -55,4 +55,8 @@
     <!-- QS Transparency -->
     <string name="qs_transparency_title">QS Transparency</string>
     <string name="qs_transparency_summary">Choose how transparent you want your QS Panel to be (Requires SystemUI)</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Game space</string>
+    <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
 </resources>
