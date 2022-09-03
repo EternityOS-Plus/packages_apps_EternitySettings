@@ -76,4 +76,8 @@
     <!-- Double tap status bar to sleep -->
     <string name="double_tap_to_sleep_title">Tap on status bar</string> 
     <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
+
+    <!-- Global Actions --> 
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
 </resources>
